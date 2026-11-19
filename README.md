@@ -8,15 +8,10 @@ closes on 2026-06-28. Written and tested on Python 3.12, standard library only (
 
 | Period | What happens |
 |---|---|
-| Jan 2025 | Healthy: about $109K/month, food cost about 32% of sales |
+| Jan 2026 | Healthy: about $109K/month, food cost about 32% of sales |
 | Apr 2025 | A smokehouse chain opens half a mile away |
 | Sep 2025 | Health inspection score of 78 makes local news |
 | Nov 2025 | Head pitmaster quits; quality complaints rise |
-| Jan 2026 | Prices raised about 8%; fewer customers come |
-| Feb 2026 | Closed Mondays and Tuesdays to save labor |
-| Mar 2026 | Seafood supplier cuts off credit; seafood leaves the menu |
-| May 2026 | Ribs and weekday lunch dropped |
-| 28 Jun 2026 | Last day of service; leftover stock written off |
 
 Management orders from numbers that are six weeks stale, so waste climbs as
 sales fall. Reorder points are still set for the original volume, so after
