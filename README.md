@@ -9,9 +9,9 @@ closes on 2026-06-28. Written and tested on Python 3.12, standard library only (
 | Period | What happens |
 |---|---|
 | Jan 2026 | Healthy: about $109K/month, food cost about 32% of sales |
-| Apr 2025 | A smokehouse chain opens half a mile away |
-| Sep 2025 | Health inspection score of 78 makes local news |
-| Nov 2025 | Head pitmaster quits; quality complaints rise |
+| Apr 2026 | A smokehouse chain opens half a mile away |
+| Sep 2026 | Health inspection score of 78 makes local news |
+| Nov 2026 | Head pitmaster quits; quality complaints rise |
 
 Management orders from numbers that are six weeks stale, so waste climbs as
 sales fall. Reorder points are still set for the original volume, so after
@@ -54,7 +54,7 @@ python -m inventory --db practice.db seed --through 2026-03-31
 | Suppliers | `suppliers` / `add-supplier "Name" --phone 214-555-0199` / `supplier-active 3 off` |
 | Stock value | `value` |
 | Revenue vs food cost | `monthly` |
-| Biggest waste | `waste-report --since 2025-09-01 --limit 10` |
+| Biggest waste | `waste-report --since 2026-09-01 --limit 10` |
 | Delete an item | `remove-item BAK-002` (asks first; removes history too; prefer `--active 0`) |
 | Backup / restore | `backup` / `restore backups/<file>.db` |
 
